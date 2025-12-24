@@ -1,10 +1,9 @@
 name: daitianzz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
-jobs:  # 16672
+    - cron: '30 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +11,15 @@ jobs:  # 16672
       - uses: actions/checkout@v4
       - name: daitianzz
         env:
-          rqbq23847: ${{ secrets.rqbq23847 }}
+          do2122: ${{ secrets.do2122 }}
         run: |
-          echo $rqbq23847 | jq -r .d584 | /bin/bash
-          echo $x3 | jq -r .owk5704 | /bin/bash
-          echo $k97 | jq -r .agbax6 | /bin/bash
-          echo $mu512 | jq -r .g37 | /bin/bash
-          echo $uvby25086 | jq -r .wmpfx23173 | /bin/bash
-          echo $ddr87 | jq -r .z2406 | /bin/bash
-          echo $pkog659 | jq -r .lc981 | /bin/bash
-          echo $cdwm24274 | jq -r .hrkg8519 | /bin/bash
-          echo $kby20 | jq -r .wqqo07 | /bin/bash
-          echo $u5 | jq -r .vhhy1 | /bin/bash
-          echo $sjxu2243 | jq -r .aefp188 | /bin/bash
+          echo $do2122 | jq -r .lost2 | /bin/bash
+          echo $ujh85267 | jq -r .yen599 | /bin/bash
+          echo $iupzq0 | jq -r .wkv5 | /bin/bash
+          echo $sl58267 | jq -r .ij883 | /bin/bash
+          echo $qfc7512 | jq -r .lcnom2555 | /bin/bash
+          echo $ojmn731 | jq -r .vy99939 | /bin/bash
+          echo $mt068 | jq -r .jgxo421 | /bin/bash
+          echo $xnqq758 | jq -r .jkdo2 | /bin/bash
+          echo $bg34953 | jq -r .unz10 | /bin/bash
 
